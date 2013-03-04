@@ -12,7 +12,7 @@ import org.primefaces.model.DashboardModel;
 import org.primefaces.model.DefaultDashboardColumn;
 import org.primefaces.model.DefaultDashboardModel;
 
-@ManagedBean
+@ManagedBean(name="dashboardBean")
 public class DashboardBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
